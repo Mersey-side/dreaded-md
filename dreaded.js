@@ -107,22 +107,22 @@ const author = process.env.STICKER_AUTHOR || 'fortunatus';
 const mycode = process.env.COUNTRY_CODE || '254';
     const cmd = commandNam.some(name => body.includes(name)) && body.startsWith(prefix);
 const admin = process.env.ADMIN_MSG || 'Are you an admin?';
-    const group = process.env.GROUP_ONLY_MSG || 'This a not a group chat';
-    const botAdmin = process.env.BOT_ADMIN_MSG || 'Am I an admin?'
-    const NotOwner = process.env.NOT_OWNER_MSG || 'Are you the owner?';
+    const group = process.env.GROUP_ONLY_MSG || 'This a not a group chat🫴';
+    const botAdmin = process.env.BOT_ADMIN_MSG || 'Punguza kiherehere we si admin😂🙃💔'
+    const NotOwner = process.env.NOT_OWNER_MSG || 'Are you the owner🌚';
 const appname = process.env.APP_NAME;
 const herokuapi = process.env.HEROKU_API;
     const packname = process.env.STICKER_PACKNAME || 'dreaded';
-const dev = process.env.DEV || '254114018035'
+const dev = process.env.DEV || '254102028964'
  const DevDreaded = dev.split(",");
-    const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
-   const bad = process.env.BAD_WORD || 'fuck';
-const botname = process.env.BOTNAME || "DREADED-MD";
+    const badwordkick = process.env.BAD_WORD_KICK || 'TRUE';
+   const bad = process.env.BAD_WORD || 'fuck' ,'simp' ,'acha hizo' ,'dust';
+const botname = process.env.BOTNAME || "𝕄𝕖𝕣𝕤𝕖𝕪𝕤𝕚𝕕𝕖✰❃✰";
 
     const autorecordtypegc = process.env.RECORDING_TYPINGGC || 'TRUE';
     const autoreaddm = process.env.AUTOREAD || 'TRUE';
-const antibot = process.env.ANTIBOT || 'FALSE';
-const antitag = process.env.ANTITAG || 'FALSE';
+const antibot = process.env.ANTIBOT || 'TRUE';
+const antitag = process.env.ANTITAG || 'TRUE';
 const antilink = process.env.ANTILINK || 'TRUE';
     const badword = bad.split(",");
     const Owner = DevDreaded.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
